@@ -63,7 +63,7 @@ function DetailSurah({detailSurah,location,getSurah}) {
                 {isPlaying ? <FaPause className='ml-2'/> : <FaPlay className='ml-2'/>}
             </button>
 
-            <div dangerouslySetInnerHTML={{__html:data.deskripsi}} className="text-sm font-Nunito mx-3 font-semibold italic text-slate-700 mt-5"></div>
+            <div dangerouslySetInnerHTML={{__html:data.deskripsi}} className="text-sm font-Nunito mx-5 font-semibold italic text-slate-700 mt-5"></div>
         </div>
         {
             data.ayat?.length > 0 && data.ayat?.map(el => {
