@@ -3,7 +3,7 @@ import Logo from '../Image/logo.webp'
 
 function Content() {
   return (
-    <div className='flex justify-center bg-gradient-to-b from-emerald-600 to-emerald-100 shadow-lg rounded-b-sm mt-[55px] xl:mt-12 pb-2'>
+    <div className='flex justify-center bg-gradient-to-b from-emerald-600 to-emerald-100 shadow-lg rounded-b-sm mt-[45px] xl:mt-12 pb-2'>
       <div className='container mx-auto mt-5'>
         <img src={Logo} alt="Al-quran" className='mx-auto w-28 md:w-44'/>
         <div className='text-center mb-4 text-slate-800 mt-5'>
