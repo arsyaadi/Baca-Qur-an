@@ -1,16 +1,16 @@
-import React,{useState} from "react";
-// pages
-import Header from "./Component/Jumbotron";
-import Content from "./Component/Content";
-import DetailSurah from "./Component/DetailSurah";
-import Navbar from "./Component/Navbar";
-// react-router-dom
-import  {Routes,Route,useNavigate,useLocation} from 'react-router-dom';
 // axios
 import axios from "axios";
+import React, { useState } from "react";
+// react-router-dom
+import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 // Sweetalert2 
-import Swal from "sweetalert2";   
+import Swal from "sweetalert2";
+import Content from "./Component/Content";
+import DetailSurah from "./Component/DetailSurah";
 import Footer from "./Component/Footer";
+// pages
+import Header from "./Component/Jumbotron";
+import Navbar from "./Component/Navbar";
 
 
 function App() {
@@ -57,6 +57,7 @@ function App() {
       console.log(err)
     }
   }
+
 
   return (
    <>
